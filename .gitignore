@@ -1,0 +1,52 @@
+# compilacion y CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.ninja
+.ninja_deps
+.ninja_log
+
+# binarios y objetos de C++ (Linux y Windows)
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.pdb
+*.ilk
+
+# archivos de Qt (MOC, UIC, RCC)
+moc_*
+ui_*
+qrc_*
+*.qm
+*.qmlc
+*.jsc
+
+# documentación generada por Doxygen
+html/
+latex/
+docs/
+
+# ides y editores (VS Code, CLion, Qt Creator)
+.vscode/
+.idea/
+*.user
+.user.
+*.autosave
+
+# archivos del OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# logs
+*.log
